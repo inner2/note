@@ -4,7 +4,7 @@
 
 ## install
   細かい内容は省略  
-  mac で brew install git で導
+  mac で brew install git で導入
 
 ## 初期設定
   ```

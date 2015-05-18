@@ -1,4 +1,4 @@
-# Markdown 記法
+# Markdown
 markdown 記法についてメモ
 なるべくシンプルを目指す。
 
