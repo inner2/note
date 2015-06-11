@@ -24,7 +24,7 @@ hello.html
 
 ## グローバル属性
 すべてのタグにつけられる属性  
-その一部をメモ(id, class, style)
+その一部をメモ(id, class, style)  
 id: 一つしかない要素  
 class: 複数ある要素  
 style: スタイルを直接指定  
@@ -46,7 +46,7 @@ body タグの中で使えるタグ
 - span : なんらかの処理をしたいときに使われる
   - タグ自体にはあまり意味がない
 - hr : 平線
-- pre : 改行や字下げを保持
+- pre : 改行や字下げを保持
 - blockquote : 引用
 - div : スタイリング用途などで使われる
 
@@ -77,7 +77,7 @@ li : list item
 
 ## 表の作成
 - tr: table row(行)
-- th: table header(見出し)
+- th: table header(見出し)
 - td: table data
 
 ```

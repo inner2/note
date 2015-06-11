@@ -64,3 +64,9 @@ markdown 記法についてメモ
 ```
 [Link_name](www.hogehoge.com)
 ```
+### Images
+Markdown ファイル内に画像等を添付する
+```
+![alt text](http://example.com/logo.png)
+![alt text](image/img.png)
+```
