@@ -43,7 +43,8 @@ with open('config.txt', 'w') as configfile:
 ```
 
 ## ファイルの読み込み
-作成したファイルを読み込んでいく。
+作成したファイルを読み込んでいく。  
+読み込むときは数値などは文字列として扱われるようです。  
 
 config_read.py
 ```
@@ -52,5 +53,20 @@ import configparser
 config = configparser.ConfigParser()
 config.read('config.txt')
 
+user = config['defalt']['user']
+print(user)  # inner と表示される
 
+# info の中の要素を全て取り出す
+for i in config['info']:
+    print(i)
+    print(config.['info'][i])
+```
+
+実行結果
+```
+inner
+directory
+dir
+mode
+0
 ```
