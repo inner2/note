@@ -68,3 +68,9 @@
   ```
   $ git reset --hard [id/(HEAD)]
   ```
+
+### Github で .gitignore が反映されない
+キャッシュが残っていると反映されない場合がある。
+```
+$ git rm -r --cached .
+```
